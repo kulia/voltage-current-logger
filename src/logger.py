@@ -7,7 +7,8 @@ def main():
 	# configure the serial connections (the parameters differs on the device you are connecting to)
 
 	# Choose ttyACM1 or ttyACM0 based on what usb is connected
-	ser = init_serial('/dev/ttyACM1')
+	ser = init_serial('/dev/ttyACM2')
+	# ser = init_serial('/dev/ttyACM1')
 	# ser = init_serial('/dev/ttyACM0')
 	f = init_print_to_file()
 
