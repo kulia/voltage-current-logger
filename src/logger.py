@@ -2,14 +2,14 @@ import serial
 
 from time import time
 from time import strftime
+from sys import argv
 
 def main():
-	# configure the serial connections (the parameters differs on the device you are connecting to)
 
-	# Choose ttyACM1 or ttyACM0 based on what usb is connected
+	# '/dev/ttyACMn' for linux
+	port = str(argv[1])
+	
 	ser = init_serial('/dev/ttyACM2')
-	# ser = init_serial('/dev/ttyACM1')
-	# ser = init_serial('/dev/ttyACM0')
 	f = init_print_to_file()
 
 	start = False
@@ -53,8 +53,6 @@ def init_print_to_file():
 
 	print t0
     
-	# filename = 'raw-data/' + 'test' +'.txt' # For debugging
-
 	f = open(filename, 'w')    
 	return f
 
