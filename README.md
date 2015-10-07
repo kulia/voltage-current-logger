@@ -1,5 +1,7 @@
 # Voltage and Current Logger
 
+An description of a simple voltage and current logger that is deployed at CST - Royal University of Bhutan.
+
 ## Dependencies
 
 __Python 2.7__
