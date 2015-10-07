@@ -69,3 +69,7 @@ __Linux__
 Find the port connected to the arduino. Then type
 
 	$ python logger.py /dev/ttyACM__N__
+
+__Where is the data stored__
+
+The data is stored in _raw-data/_ as a .txt document. The number indicates microsenconds after Epoch, as a time refrence.
