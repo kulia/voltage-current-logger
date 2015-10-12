@@ -9,7 +9,7 @@ def main():
 	# '/dev/ttyACMn' for linux
 	port = str(argv[1])
 	
-	ser = init_serial('/dev/ttyACM2')
+	ser = init_serial(port)
 	f = init_print_to_file()
 
 	start = False
