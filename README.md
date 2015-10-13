@@ -41,7 +41,10 @@ To find the new output voltage we can use the node voltage method. With an input
 
 __Python 2.7__
 
-Download [python 2.7](https://www.python.org/downloads/). Make sure to install pip as well.
+Download [python 2.7](https://www.python.org/downloads/).
+
+__Pip__
+[Install pip](https://pip.pypa.io/en/latest/installing/).
 
 __Pyserial__
 
