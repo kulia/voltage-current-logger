@@ -1,4 +1,4 @@
-It is possible to use the chrome plugin (markdown Preview)[https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd?hl=en] to read .md files offline.
+It is possible to use the chrome plugin [markdown Preview](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd?hl=en) to read .md files offline.
 # Voltage and Current Logger
 
 An description of a simple voltage and current logger that is deployed at CST - Royal University of Bhutan.
